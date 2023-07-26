@@ -1,0 +1,32 @@
+{
+  "name": "react-common-cli",
+  "version": "0.0.0",
+  "description": "A react based cli tool",
+  "main": "index.js",
+  "scripts": {
+    "pub": "npm publish"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "bin": {
+    "rci": "bin/rci.js"
+  },
+  "keywords": [
+    "react",
+    "gatsbyjs",
+    "vite",
+    "nextjs",
+    "create",
+    "cli"
+  ],
+  "author": "xxn",
+  "license": "ISC",
+  "homepage": "https://github.com/nininini-1/react-common-cli",
+  "repository": "https://github.com/nininini-1/react-common-cli",
+  "devDependencies": {
+    "commander": "^11.0.0",
+    "inquirer": "^8.0.0",
+    "zx": "^4.2.0"
+  }
+}
