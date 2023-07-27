@@ -3,6 +3,7 @@
 require('zx/globals');
 const fs = require('fs');
 const path = require('path');
+const process = require('process');
 const { errorHandler } = require('../utils/common');
 const { copyDir } = require('../utils/common');
 
@@ -10,9 +11,10 @@ module.exports = async (answers) => {
   try {
     const { PROJECT_NAME, PROJECT_AUTHOR, PROJECT_DESCRIPTION } = answers;
     const baseDir = `${process.cwd()}/${PROJECT_NAME}`;
-    copyDir(path.resolve(__dirname, '..') + '/default-dir', baseDir, (a) => {
-      console.log(a, '11111111111');
-    });
+    copyDir(
+      path.resolve(__dirname, '..') + '/constants/default-config',
+      baseDir
+    );
 
     // 跳转到新目录
     cd(PROJECT_NAME);
