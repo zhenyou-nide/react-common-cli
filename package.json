@@ -1,7 +1,7 @@
 {
   "name": "react-common-cli",
-  "version": "0.0.0-beta",
-  "description": "A react based cli tool",
+  "version": "1.0.0",
+  "description": "A react-based cli tool",
   "main": "index.js",
   "scripts": {
     "pub": "npm publish",
@@ -23,8 +23,8 @@
   ],
   "author": "xxn",
   "license": "ISC",
-  "homepage": "https://github.com/xbank-xiexueni/react-common-cli",
-  "repository": "https://github.com/xbank-xiexueni/react-common-cli",
+  "homepage": "https://github.com/zhenyou-nide/react-common-cli",
+  "repository": "https://github.com/zhenyou-nide/react-common-cli",
   "devDependencies": {
     "commander": "^11.0.0",
     "inquirer": "^8.0.0",
