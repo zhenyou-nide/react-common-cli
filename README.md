@@ -1,3 +1,3 @@
-# react-cli
+# react-common-cli
 
-A react based cli tool
+A react-based cli tool
